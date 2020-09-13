@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="js/slick/slick.css">
+  <link rel="stylesheet" href="js/slick/slick-theme.css">
+  <link rel="stylesheet" href="css/fontsstyle.css">
+  <link rel="stylesheet" href="css/style.prefex.css">
+  <title>Котейка</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__wrapper container header__wrapper_bg-color">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.png" alt="Гостиница для котов и кошек" title="Котейка">
+      </a>
+      <button class="hamburger-toggle">
+        <span class="hamburger-toggle__item hamburger-toggle__item_open"></span>
+        <span class="hamburger-toggle__item hamburger-toggle__item_open"></span>
+        <span class="hamburger-toggle__item hamburger-toggle__item_open"></span>
+      </button>
+      <nav class="menu-nav">
+        <ul class="menu-nav__list menu-nav__list_open">
+          <li class="menu-nav__item"><a href="catalog.html" class="menu-nav__link">Номера</a></li>
+          <li class="menu-nav__item"><a href="regulations.html" class="menu-nav__link">Правила</a></li>
+          <li class="menu-nav__item"><a href="gallery.html" class="menu-nav__link">Галерея</a></li>
+          <li class="menu-nav__item">
+            <a href="tel:+375291975264"> +375(29)197-52-64</a>
+          </li>
+          <li class="menu-nav__item">
+              <a href="#" class="contacts__social-icon contacts__social-icon_facebook" title="Facebook">Фейсбук</a>
+              <a href="#" class="contacts__social-icon contacts__social-icon_instagram" title="Instagram">Инстаграм</a>
+              <a href="#" class="contacts__social-icon contacts__social-icon_vkontakte" title="Vkontakte">Вконтакте</a>
+          </li>
+        </ul>     
+      </nav>
+    </div>
+  </header>
+
+  <a href="#" class="to-top"></a>
+
+  <main>
+
+    <section class="main-content">
+      <div class="main-content__wrapper">
+        <div class="main-content__content-wrap">
+          <div class="main-content__content-inner">
+            <p class="main-content__town">Минск</p>
+          <h1 class="main-content__title title">Котейка</h1>
+          <p class="main-content__desc">Уютная гостиница для котов и кошек</p>
+          <a href="#" class="main-content__button link-popap">Забронировать</a>
+          </div>
+        </div> 
+        <div class="main-content__image-wrap">
+          <picture>
+            <source srcset="img/foto-main-content-mobile-1.jpg" media="(max-width: 480px)">
+            <source srcset="img/foto-main-content-tablet-2.jpg" media="(max-width: 768px)">
+            <img src="img/foto-main-content-desktop.jpg" alt="&laquo;Котейка&raquo;уютная гостиница для котов и кошек" title="Милый котик"> 
+          </picture>
+                   
+        </div>
+      </div>
+    </section>
+
+    <section class="advantage" id="advantage">
+      <div class="advantage__wrapper container">
+        <h2 class="advantage__title title">Почему мы?</h2>
+        <ul class="advantage__list">
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Комфортная температура</h3>
+            <p class="advantage__item_desc">Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.</p>
+          </li>
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Видеонаблюдение</h3>
+            <p class="advantage__item_desc">Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.</p>
+          </li>
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Услуги Зоотакси</h3>
+            <p class="advantage__item_desc">Мы приедем за вашим питомцем в любой район Минска.</p>
+          </li>
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Сбалансированное питание</h3>
+            <p class="advantage__item_desc">Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.</p>
+          </li>
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Ежедневные прогулки</h3>
+            <p class="advantage__item_desc">По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.</p>
+          </li>
+          <li class="advantage__item">
+            <h3 class="advantage__item_title">Лучшие ветеринары</h3>
+            <p class="advantage__item_desc">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slider container">
+      <h2 class="slider__title title">Номера</h2>
+      <div class="slider__wrapper">
+          <ul class="slider__list">
+              <li class="slider__item">    
+                <img src="img/foto-economy-desktop.jpg" class="slider__image" alt="Эконом номер">
+                <section class="slider__content">
+                  <h2 class="slider__title">Эконом плюс</h2>
+                  <ul class="slider__content-list">
+                    <li class="slider__content-item">Площадь - 0,90 м2</li>
+                    <li class="slider__content-item">Размеры (ШхГхВ) — 90х100х180 см</li>
+                    <li class="slider__content-item">Цена за сутки: 12 руб</li>
+                  </ul>
+                  <a href="#" class="slider__content-button link-popap">Забронировать</a>
+                </section>
+              </li>
+              <li>
+                <img src="img/foto-comfort.jpg" class="slider__image" alt="Комфорт номер">
+                <section class="slider__content">
+                <h2 class="slider__title">Комфорт</h2>
+                <ul class="slider__content-list">
+                  <li class="slider__content-item">Площадь - 1,13 м2</li>
+                  <li class="slider__content-item">Размеры (ШхГхВ) - 100х125х180 см</li>
+                  <li class="slider__content-item">Цена за сутки: 14 руб</li>
+                </ul>
+                <a href="#" class="slider__content-button link-popap">Забронировать</a>
+              </section>
+              </li>
+              <li>
+                <img src="img/foto-suite.jpg" class="slider__image" alt="Сьют номер">
+                <section class="slider__content">
+                  <h2 class="slider__title">Сьют</h2>
+                  <ul class="slider__content-list">
+                    <li class="slider__content-item">Площадь - 1,56 м2</li>
+                    <li class="slider__content-item">Размеры (ШхГхВ) - 100х125х180 см</li>
+                    <li class="slider__content-item">Цена за сутки: 16 руб</li>
+                  </ul>
+                  <a href="#" class="slider__content-button link-popap">Забронировать</a>
+                </section>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+    <section class="reviews">
+      <h2 class="reviews__title title">Отзывы</h2>   
+      <div class="reviews__wrapper container"> 
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Валерия Гришаева</cite>
+                <time class="reviews__quote-date" datetime="2020-11-15">15 ноября, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Екатерина Минаева</cite>
+                <time class="reviews__quote-date" datetime="2020-10-10">10 октября, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Павел Нечаев</cite>
+                <time class="reviews__quote-date" datetime="2020-12-18">18 декабря, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Валерия Гришаева</cite>
+                <time class="reviews__quote-date" datetime="2020-11-15">15 ноября, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Екатерина Минаева</cite>
+                <time class="reviews__quote-date" datetime="2020-10-10">10 октября, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+          <li class="reviews__item">
+            <blockquote class="reviews__quote">
+              <p class="reviews__quote-desc">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.</p>
+              <div class="reviews__quote-wrapper">
+                <cite class="reviews__quote-author">Павел Нечаев</cite>
+                <time class="reviews__quote-date" datetime="2020-12-18">18 декабря, 2020</time>
+              </div>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <div class="contacts__content-wrap">
+          <div class="contacts__content-inner">
+            <h2 class="contacts__title title">Как нас найти</h2>
+          <p class="contacts__desc"><strong>Адрес:</strong></p>
+          <p class="contacts__desc">Минск, ул. Кальварийская, д. 33</p>
+          <p class="contacts__desc"><strong>Режим работы:</strong></p>
+          <p class="contacts__desc">Ежедневно, с 9:00 до 20:00</p>
+          <p class="contacts__desc"><strong>Телефон:</strong></p>
+          <p class="contacts__desc"><a href="tel:+375291975264"> +375(29)197-52-64</a></p>
+          <p class="contacts__desc"><strong>E-mail:</strong></p>
+          <p class="contacts__desc"><a href="mailto:kamikus5@gmail.com"> kamikus5@gmail.com</a></p>
+          <p class="contacts__desc">
+          <strong>Социальные сети:</strong></p>
+            <p class="contacts__desc">
+              <a href="#" class="contacts__social-icon contacts__social-icon_facebook" title="Facebook">Фейсбук</a>
+              <a href="#" class="contacts__social-icon contacts__social-icon_instagram" title="Instagram">Инстаграм</a>
+              <a href="#" class="contacts__social-icon contacts__social-icon_vkontakte" title="Vkontakte">Вконтакте</a>
+            </p>
+          </div>    
+        </div>
+        <div class="contacts__maps">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Accd5473c52e0affb29d68c2a8621644f62efaf67d9575194f1b575deefcf5037&amp;source=constructor" width="798" height="580"></iframe>
+        </div>
+      </div>  
+    </section>
+  </main>
+
+    <footer class="footer container">
+      <div class="footer__wrapper">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo.png" alt="Гостиница для котов и кошек" title="Котейка">
+        </a>
+        <nav class="menu-nav">
+          <ul class="menu-nav__list">
+            <li class="menu-nav__item"><a href="catalog.html" class="menu-nav__link">Номера</a></li>
+            <li class="menu-nav__item"><a href="regulations.html" class="menu-nav__link">Правила</a></li>
+            <li class="menu-nav__item"><a href="gallery.html" class="menu-nav__link">Галерея</a></li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          <div class="copyright__inner">
+            <p class="copyright__desc">&copy; 2020 Все права защищены</p>
+          <p class="copyright__desc">Политика конфиденциальности</p>
+          </div> 
+        </div>  
+      </div>
+    </footer>
+
+    <section class="popap">
+      <h2 class="visually-hidden">Форма бронирования</h2>
+      <div class="popap__wrapper">
+        <form class="form-popap">
+          <button type="button" class="form-popap__button-close"></button>
+          <fieldset class="form-popap__field-set">
+            <legend class="form-popap__title container">Забронировать номер</legend>
+            <div class="form-popap__input">
+              <i class="icon-user"></i>
+              <input type="text" class="form-popap__control" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-popap__input">
+              <i class="icon-paw"></i>
+              <input type="text" class="form-popap__control" placeholder="Имя Питомца" required>
+            </div>
+            <div class="form-popap__input">
+              <i class="icon-phone"></i>
+              <input type="tel" class="form-popap__control" placeholder="Телефон" required>
+            </div>
+            <div class="form-popap__input">
+              <i class="icon-mail3"></i>
+              <input type="email" class="form-popap__control" placeholder="E-mail" required>
+            </div>
+            <div class="form-popap__group-date">
+              <div class="form-popap__label-date">
+                <label class="form-popap__label-control">Дата заезда</label>
+              </div>
+              <div class="form-popap__input-date">
+                <label>с</label>
+                <input type="text" class="form-popap__control" placeholder="01.02.2020">
+              </div>
+              <div class="form-popap__input-date">
+                <label>по</label>
+                <input type="text" class="form-popap__control" placeholder="08.02.2020">
+              </div>
+            </div>
+            <div class="form-popap__button-wrap">
+              <button class="form-popap__button">Оставить заявку</button>
+            </div> 
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    
+    <script src="js/nav-menu.js"></script>
+    <script src="js/popap.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/to-top.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+	  
+        $('.slider__list').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          dots: true,
+        });
+
+        $('.reviews__list').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 6000,
+          dots: true,
+          arrows: false,
+          responsive: [
+            {
+            breakpoint: 850,
+            settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+            }
+            }
+            ]
+        });
+	    });  
+    </script>
+</body>
+</html>
